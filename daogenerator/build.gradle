@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/freemarker.jar')
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'src-template'
+        }
+    }
+}

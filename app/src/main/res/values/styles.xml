@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+    <!--  Window style is to solve the animation does not work.  -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/Style.Animation.Activity</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#4876FF</item>
+    </style>
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+
+    <style name="Style.Animation.Activity" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_close_exit</item>
+    </style>
+</resources>

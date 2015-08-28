@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LeagueHelper</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+
+    <string name="bind_account_server_area_hint">服务器名称</string>
+    <string name="bind_account_name_hint">召唤师名称</string>
+</resources>
